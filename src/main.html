@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="UTF-8" />
+    <title>Coffee Podomoro TImer</title>
+    <link href="https://fonts.googleapis.com/css2?family=Press+Start+2P&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css" />
+  </head>
+
+  <body>
+
+    <div class="container">
+
+      <div class="header">
+        <h1 style="font-size: 25px">Coffee Podomoro Timer</h1>
+
+      </div>
+
+
+      <main>
+        <div class="nav-bar">
+          <div class="nav-item">
+            <img src="assets/podomoro.PNG" class="podomoro-assets">
+            <button id="timer" style="font-family: 'Press Start 2P'">Podomoro</button>
+            <img src="assets/break.PNG" class="podomoro-assets">
+            <button id="break" style="font-family: 'Press Start 2P'">Break</button>
+          </div>
+        </div>
+         
+        <div class="podomoro">
+          <div class="timer-control">
+            <!-- study session -->
+            <div id="short-session" class="timer-display" data-duration="25:00">
+              <h1 class="time">25:00</h1>
+            </div>
+    
+            <div id="long-session" class="timer-display" data-duration="50:00">
+              <h1 class="time">50:00</h1>
+            </div> 
+            
+            <!-- break session -->
+            <div id="short-break" class="timer-display" data-duration="5:00">
+              <h1 class="time">5:00</h1>
+            </div>  
+    
+            <div id="long-break" class="timer-display" data-duration="10:00">
+              <h1 class="time">10:00</h1>
+            </div>
+            <!-- timer control-->
+            <div class="control">
+              <button id="start"><img src="assets/startbutton.PNG" style="height: 130px; width:130px"/></button>
+              <button id="return"><img src="assets/return.PNG" style="height: 71px; width: 71px"></button>
+            </div>
+          </div>
+
+          <div class="announcement">
+            <div id="short-session-msg" class="message">
+              <img id="drink" src="assets/bearlatte.PNG" style="height: 186px; width:186px"/>
+              <p id="drink">Here's your mocha. Let's start studying!</p>
+            </div>
+
+            <div id="long-session-msg" class="message"> 
+              <img id="drink" src="assets/cappuccino.png" style="height: 186px; width:186px"/>
+              <p id="drink">Here's your cappuccino. Let's start studying!</p>
+            </div>
+
+            <div id="short-break-msg" class="message">
+              <img id="drink" src="assets/cookie.png" style="height: 186px; width:186px"/>
+              <p id="drink">Have a quick cookie and return to work soon!</p>
+            </div>
+
+            <div id="long-break-msg" class="message">
+              <img id="drink" src="assets/cake.png" style="height: 186px; width:186px"/>
+              <p id="drink">Here's your cake! Enjoy your break!</p>
+            </div>
+          </div>
+        </div>
+
+      </main>
+      </div>
+    </div>
+
+    <!-- Javacript-->
+    <script src="script.js"></script>
+
+  </body>
+</html>

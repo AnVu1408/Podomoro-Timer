@@ -1,0 +1,116 @@
+body {
+  background-color: #f9f5ec;
+  font-family: 'Press Start 2P';
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+  overflow: hidden;
+  width: 100%;
+  margin: 0;
+}
+
+.container {
+  background: #FFEDD8;
+  border: 4px solid #ffcf95;
+  border-radius: 12px;
+  width: 716px;
+  height: 512px;
+  padding: 1rem;
+  position: relative;
+}
+
+.nav-bar {
+  display: flex;
+  background-color: #FCF9F2;
+  width: 350px;
+  height: 40px;
+  padding: 0.5rem;
+  gap: 0;
+  z-index: 1;
+  border-radius: 30px 30px 0px 0px;
+}
+
+.nav-bar button:hover {
+  background-color: #f0e3d1;
+}
+
+.podomoro-assets {
+  height: 32px;
+  width: auto;
+  image-rendering: pixelated;
+}
+
+button {
+  background: none;
+  border: none;
+  font-size: 1rem;
+  color: #5c3b29;
+  cursor: pointer;
+}
+
+
+.header {
+  display: flex;
+}
+
+.podomoro {
+  background: #734A2C;
+  display: flex;
+  width: 100%;
+  height: 80%;
+  border: 12px solid #FCF9F2;
+  border-radius: 0px 30px 30px 30px;
+  gap: 20px;
+  box-sizing: border-box;
+  justify-content: space-between;
+  align-items: center;
+  padding: 15px;
+}
+
+.announcement {
+  background-color: #F7EDCA;
+  float: left;
+  border-radius: 30px;
+  align-items: center;
+  text-align: center;
+  width: 50%;
+  height: 334px;
+  padding: 16px;
+  box-sizing: border-box;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+
+}
+
+.timer-control {
+  width: 50%;
+  float: right;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.time{
+  color: #FCF9F2;
+  font-size: 50px;
+  text-shadow: 5px 0px 0px #FFCF95;
+  align-items: center;
+  justify-content: center;
+  height: auto;
+  margin-bottom: 0px;
+}
+
+.control{
+  display: flex;
+  margin-top: 0px;
+}
+
+.control img {
+  cursor: pointer;
+  image-rendering: pixelated;
+}
+
