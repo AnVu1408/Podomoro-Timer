@@ -84,8 +84,7 @@ You can use [Electron Packager](https://github.com/electron/electron-packager) o
 
 ## 📌 Credits
 
-Design inspired by cozy café vibes ☕
-Developed with ❤️ by \Mia Vu
+Developed with ❤️ by Mia Vu
 
 ---
 
