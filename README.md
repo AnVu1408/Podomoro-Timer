@@ -5,7 +5,8 @@ A minimal and delightful Pomodoro timer inspired by the cozy feel of a coffee br
 
 ## 📸 Preview
 
-![image](https://github.com/user-attachments/assets/51878878-cf86-4d40-a3b6-1d8efafa6c6f)
+![image](https://github.com/user-attachments/assets/68ae1dd3-2e65-407b-a22b-1a57f666ae11)
+
 
 *Stay focused while enjoying your favorite virtual brew!*
 
